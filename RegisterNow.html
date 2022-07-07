@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now</title>
+    <link rel="stylesheet" href="css/RegisterNow.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg.jpg');
+            /* height: 1000px; */
+            height: 100vh;
+            background-repeat: no-repeat;
+            /* background-size: cover; */
+            font-family: cursive !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headstick">
+        <h3>SECTOR-3 ROHINI, NEW DELHI</h3>
+    </div>
+    <div class="logo">
+        <img src="img/logo.png">
+        <div>FitWithDivyansh</div>
+    </div>
+   
+    <main class="center">
+        <div class="container">
+            <form action="samplephp.php">
+                <div class="payment-head"><h1 class="main-heading">Register Now</h1>
+                <h3 class="main-heading">* Mandatory to fill</h3></div>
+            <hr>
+                <h3>User Details</h3>
+                <div >Name: * <br><input type="text" name="name" required placeholder="Divyansh Gupta"></div> <br>
+                <div>
+                    <fieldset> <legend>Gender</legend><input type="radio" name="gender">Male <input type="radio" name="gender"> Female</div></fieldset> <br>
+                <div>Address:<br> <textarea name="address" placeholder="Enter your Address"></textarea> ></div> <br>
+                <div>Email: <br><input type="email" placeholder="divyansh@gmail.com"></div> <br>
+                <div>Pincode: <br><input type="number" required placeholder="123456"></div> <br>
+    
+                <h3>Payment Details</h3>
+                <div>Card Type: <br><select name="cardtype" id="hellocard">
+                        <option value="">--Select a card type--</option>
+                        <option value="VISA">VISA</option>
+                        <option value="RUPAY">RUPAY</option>
+                        <option value="MASTERCARD">MASTERCARD</option>
+                </select></div> <br>
+                <div>Card Number: *<br><input type="number" required placeholder="1111-2222-3333-4444"></div> <br>
+                <div>Expiration Date: <br><input type="date"></div> <br>
+                <div>CVV: <br><input type="password" placeholder="123"></div> <br>
+                <div class="lastbutton"><input type="submit" value="Pay Now"></div> <br>
+            </form>
+        </div>
+    </main>
+   
+</body>
+
+</html>

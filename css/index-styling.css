@@ -1,0 +1,156 @@
+.headstick{
+    background-color: rgb(152, 218, 76);;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headstick h3{
+    color: black;
+}
+/* Header starts from here */
+.header{
+    /* background-color: rgb(86, 91, 91); */
+    /* padding: 1px; */
+    position: sticky;
+}
+.headerleft{
+    display: inline-block;
+    position: absolute;
+    left: 51px;
+    top: -57px;
+    
+}
+.headermid{
+    display: block;
+    width: 850px;
+    height: 35px;
+    margin: 70px auto;
+    text-align: center;
+    /* position: static; */
+    /* border: 2px solid rgb(83, 76, 218); */
+}
+.headerright{
+    display: inline-block;
+    position: absolute;
+    right: 98px;
+    top: -14px;
+    /* height: 35px; */
+}
+.headerright button{
+    border: none;  
+    font-size: 25px;
+    background-color: rgb(152, 218, 76);
+    padding: 11px 17px;
+    border-radius: 100px;
+ cursor: pointer;
+ font-family: cursive !important;
+
+}
+.headerright button:hover{
+color: rgb(152, 218, 76);
+background-color: black;
+border-radius: 100px;
+}
+/* navbar starts here */
+.navbar{
+    margin: 4px 21px 5px -73px;
+    /* border: 2px solid rgb(83, 76, 218); */
+    
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    font-size: 28px;
+}
+.navbar li a{
+    color: aliceblue;
+    padding: 5px 21px;
+    text-decoration: none;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: rgb(152, 218, 76);
+    text-decoration: underline;
+    /* background-color: rgb(152, 218, 76); */
+}
+/* navbar ends here */
+
+.headerleft img{
+    width: 80px;
+    filter: invert(1);
+    margin: 12px 5px -8px 38px;
+}
+/* .logocentre{
+    text-align: center;
+} */
+.headerleft div{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(152, 218, 76);
+}
+/* header finishes here */
+
+
+/* Main content starts here */
+main .firstmain{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    width: 70%;
+    margin: 138px 0px 10px 60px;
+}
+main .firstcontent{
+    color: aliceblue;
+    font-size: 68px;
+    font-family: cursive;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+main div b{
+    color: rgb(152, 218, 76);
+    text-decoration: underline;
+
+    
+}
+main div b:hover{
+    text-decoration: dashed;
+    
+}
+
+main .secondmain{
+    display: inline-block;
+    margin: 30px 0px 10px 60px;
+    /* border: 2px solid yellow; */
+
+}
+main .secondmain button{
+    border: none;  
+    font-size: 25px;
+    background-color: rgb(152, 218, 76);
+    padding: 11px 17px;
+    border-radius: 100px;
+ cursor: pointer;
+ font-family: cursive !important;
+}
+main .secondmain button:hover{
+    color: rgb(152, 218, 76);
+    background-color: black;
+    border-radius: 100px;
+    }
+
+    footer .footstick{
+        background-color: rgb(152, 218, 76);;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0px;
+        margin-top: 230px;
+        height: 31px;
+    }
+    footer .footstick h3{
+        color: black;
+    }
+    footer .footstick h3 span{
+        font-size: larger;
+    }

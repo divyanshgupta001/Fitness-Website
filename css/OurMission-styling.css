@@ -1,0 +1,56 @@
+.headstick{
+    background-color: rgb(152, 218, 76);
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headstick h3{
+    color: black;
+}
+.logo{
+   /* width: 80px; */
+   margin: 48px 5px -8px 38px;
+   display: inline-block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   float: left;
+}
+/* Logo Image Starts Here */
+.logo img{
+    filter: invert(1);
+    width: 115px;
+}
+.logo div{
+    color: rgb(152, 218, 76);
+    font-size: 45px;
+    margin-left: 30px;
+}
+/* Logo Image Ends Here */
+main{
+    width: 803px;
+    margin: 218px 56px
+}
+main h1{
+    width: 61%;
+    color: black;
+    margin-left: 32px;
+    font-size: 45px;
+    background-color: aliceblue;
+    border: 20px solid rgb(152, 218, 76);
+    border-radius: 50px;
+    text-align: center;
+}
+main p{
+    width: 50%;
+    color: black;
+    margin-left: 32px;
+    font-size: 25px;
+    background-color: aliceblue;
+    border: 20px solid rgb(152, 218, 76);
+    border-radius: 50px;
+    text-align: justify;
+padding: 12px 45px;
+}
