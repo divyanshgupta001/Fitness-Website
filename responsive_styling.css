@@ -1,0 +1,35 @@
+@media screen and (max-width: 1050px) {
+  * {
+    max-width: 100%;
+    font-size: 100%;
+}
+body {
+    background-size: auto;
+}
+html{
+    height: -100px !important;
+
+}
+  .headerleft {
+    display: inline-block;
+    position: absolute;
+    left: 15.1rem;
+    top: -15rem;
+    
+  }
+  .headermid {
+    display: flex;
+    justify-content: center;
+    margin-top: 17rem;
+  }
+  .headerright {
+    display: inline-block;
+    position: absolute;
+    right: 9rem;
+    top: 86.5rem;
+    /* height: 35rem; */
+  }
+  .firstmain {
+    margin: 5.8rem 0rem 1rem 6rem !important;
+  }
+}
